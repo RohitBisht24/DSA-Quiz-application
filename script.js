@@ -154,11 +154,11 @@ const question = [
     {
         question: "Given as array, A(5:50), Base address=300, w=4. find the address of the element A(55):- ",
         answer: [
-            { text: "340", correct: true},
+            { text: "340", correct: false},
             { text: "540", correct: false},
             { text: "680", correct: false},
             { text: "850", correct: false},
-            { text: "can't determine", correct: false},
+            { text: "can't determine", correct: true},
         ]
     },
     {
