@@ -59,6 +59,136 @@ const question = [
             { text: "all of these", correct: false},
 
         ]
+    },
+    {
+        question: "The memory address of the first element of the array is known :- ",    
+        answer: [
+            { text: "floor adddress", correct: false},
+            { text: "first address", correct: false},
+            { text: "foundation address", correct: false},
+            { text: "base address", correct: true},
+        ]
+    },
+    {
+        question: "Which is the following data structure is indexed data structure :- ",
+        answer: [
+            { text: "linear arrays", correct: true},
+            { text: "linked list", correct: false},
+            { text: "both linear arrays and linked list ", correct: false},
+            { text: "neither linear arrays and linked list", correct: false},
+        ]
+    },
+    {
+        question: "Which of the following data structure can't store the non-homogeneous data elements :- ",
+        answer: [
+            { text: "records", correct: false},
+            { text: "pointers", correct: false},
+            { text: "arrays", correct: true},
+            { text: "none of these", correct: false},
+        ]
+    },
+    {
+        question: "To represent hierarchical relationship between elements which data structure is suitable :- ",
+        answer: [
+            { text: "linked lists", correct: false},
+            { text: "array", correct: false},
+            { text: "tree", correct: true},
+            { text: "graph", correct: false},
+        ]
+    },
+    {
+        question: "The length linear array can be abtained by which of the formula :- ",
+        answer: [
+            { text: "UB+LB-1", correct: false},
+            { text: "UB-LB", correct: false},
+            { text: "UB-LB+1", correct: true},
+            { text: "UB+LB-1", correct: false},
+        ]
+    },
+    {
+        question: "Sparse Matrices are matrices with :- ",
+        answer: [
+            { text: "Less proportion of Zeros", correct: false},
+            { text: "High proportion of Zeros", correct: true},
+            { text: "No Zeros", correct: false},
+            { text: "None of the above", correct: false},
+        ]
+    },
+    {
+        question: "Representation of data structure is memory is known as :- ",
+        answer: [
+            { text: "recursive", correct: false},
+            { text: "file structure", correct: false},
+            { text: "storage structure", correct: true},
+            { text: "abstract data type", correct: false},
+        ]
+    },
+    {
+        question: "The elements of array are stored in contiguous memory locations irrespective of the type and dimension of the array :- ",
+        answer: [
+            { text: "TRUE", correct: false},
+            { text: "FALSE", correct: true},
+            { text: "Indeterminate", correct: false},
+        ]
+    },
+    {
+        //  yaha se dekhna  hai
+        question: "Which of the following data structures are best suited for the random accessing of the element :- ",
+        answer: [
+            { text: "linked lists", correct: false},
+            { text: "pointer", correct: false},
+            { text: "array", correct: true},
+            { text: "all of the above", correct: false},
+            { text: "none of the above", correct: false},
+        ]
+    },
+    {
+        question: "Given as array, A(5:50), Base address=300, w=4. find the address of the element A(15):- ",
+        answer: [
+            { text: "355", correct: false},
+            { text: "340", correct: false},
+            { text: "350", correct: false},
+            { text: "500", correct: true},
+            { text: "can't determine", correct: false},
+        ]
+    },
+    {
+        question: "Given as array, A(5:50), Base address=300, w=4. find the address of the element A(55):- ",
+        answer: [
+            { text: "340", correct: true},
+            { text: "540", correct: false},
+            { text: "680", correct: false},
+            { text: "850", correct: false},
+            { text: "can't determine", correct: false},
+        ]
+    },
+    {
+        question: "Consider and array B(-5:10), Find the length of the arry B :- ",
+        answer: [
+            { text: "16", correct: true},
+            { text: "18", correct: false},
+            { text: "17", correct: false},
+            { text: "15", correct: false},
+        ]
+    },
+    {
+        question: "Consider and array C(1:8, -5:5, -10:5), Find the length of the arry C :- ",
+        answer: [
+            { text: "1008", correct: false},
+            { text: "1508", correct: false},
+            { text: "1468", correct: false},
+            { text: "1408", correct: true},
+        ]
+    },
+    {
+        question: "Which of the following is a perfect data structure in terms of utilization of memory and run time :- ",
+        answer: [
+            { text: "tree", correct: false},
+            { text: "array", correct: false},
+            { text: "linked list", correct: false},
+            { text: "all of the above", correct: false},
+            { text: "none of the above", correct: true},
+        ]
     }
 ];
 
