@@ -1,12 +1,12 @@
 const question = [
     {
-        question: "Which is largest animal in the world?",
+        question: "Which of the following is true about the Data Structure :-",
         answer: [
-            { text: "rohit", correct: false},
-            { text: "Blue whale", correct: true},
-            { text: "Elephant", correct: false},
-            { text: "Giraffe", correct: false},
-            { text: "Giraffe", correct: false},
+            { text: "Organization of data items in main memory", correct: false},
+            { text: "Organization of data items in secondary memory", correct: false},
+            { text: "Relationship among the data items", correct: false},
+            { text: "all of the above", correct: true},
+            { text: "none of the these", correct: false},
         ]
     },
     {
