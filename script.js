@@ -44,8 +44,8 @@ const question = [
         question: "Which is the following is a most commonly used data structure is the implementation of a DBMS :- ",
         answer: [
             { text: "linked list", correct: false},
-            { text: "array", correct: false},
-            { text: "integer", correct: true},
+            { text: "array", correct: true},
+            { text: "integer", correct: false},
             { text: "stack", correct: false},
         ]
     },
@@ -54,9 +54,9 @@ const question = [
         answer: [
             { text: "statistical analysis of packages", correct: false},
             { text: "simulation", correct: false},
-            { text: "operating system", correct: true},
+            { text: "operating system", correct: false},
             { text: "graphics", correct: false},
-            { text: "all of these", correct: false},
+            { text: "all of these", correct: true},
 
         ]
     },
@@ -132,7 +132,6 @@ const question = [
         ]
     },
     {
-        //  yaha se dekhna  hai
         question: "Which of the following data structures are best suited for the random accessing of the element :- ",
         answer: [
             { text: "linked lists", correct: false},
@@ -146,9 +145,9 @@ const question = [
         question: "Given as array, A(5:50), Base address=300, w=4. find the address of the element A(15):- ",
         answer: [
             { text: "355", correct: false},
-            { text: "340", correct: false},
+            { text: "340", correct: true},
             { text: "350", correct: false},
-            { text: "500", correct: true},
+            { text: "330", correct: false},
             { text: "can't determine", correct: false},
         ]
     },
