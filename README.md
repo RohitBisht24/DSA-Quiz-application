@@ -3,7 +3,7 @@
 
 This is a simple, client-side Quiz application that contains multiple-choice questions (MCQs) focused on Data Structures & Algorithms (DSA). The project was built as a lightweight interactive quiz to help learners practice common DSA concepts and test their knowledge.
 
-Live deployment: https://dsa-mcqs-questions.netlify.app/
+Live Preview: https://rohitbisht24.github.io/DSA-Quiz-application/
 
 ## Key points
 
